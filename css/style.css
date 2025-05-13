@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px dashed red;
 }
 
 body {
@@ -154,9 +155,18 @@ img {
   .why-us .col {
     width: 100%;
   }
+
+  .why-us {
+    background-color: #222222;
+    margin: 0 auto;
+  }
+
+  .steps {
+    margin: 0;
+  }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1160px) {
+@media screen and (min-width: 768px) and (max-width: 1160px) {
   .container {
     width: 100%;
   }
